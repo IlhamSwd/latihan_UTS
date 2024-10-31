@@ -25,7 +25,7 @@ const index = (req, res, next) => {
 
 //untuk menghandle request insert pesanan
 const insert = (req, res, next) => {
-    const psn = new Mahasiswa({
+    const psn = new Pesanan({
       pengguna_id: req.body.pengguna_id,
       produk_id: req.body.produk_id,
       jumlah: req.body.jumlah,

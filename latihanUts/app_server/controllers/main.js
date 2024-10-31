@@ -2,4 +2,4 @@
 //     res.render('index', { title: 'Express'}); 
 // }; 
 
-module.exports = { index, kontak }; 
+// module.exports = { index, insert }; 
